@@ -1,0 +1,10 @@
+.headerContainer {
+  width: 100vw;
+  height: 48px;
+  background-color: #f9fafb;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  direction: rtl;
+}

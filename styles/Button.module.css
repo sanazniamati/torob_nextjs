@@ -1,0 +1,19 @@
+.btnContainer {
+  height: 28px;
+  font-size: 12px;
+  color: #808080;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+.btnSubmit {
+  line-height: 28px;
+  font-size: 12px;
+  color: #808080;
+  cursor: pointer;
+  direction: rtl;
+  padding: 0 12px;
+}

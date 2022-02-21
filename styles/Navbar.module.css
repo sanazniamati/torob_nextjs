@@ -1,0 +1,60 @@
+.menuCats {
+  display: flex;
+  text-align: right;
+  margin-bottom: 5px;
+  margin-inline-start: -10px;
+  flex: 1;
+}
+.droptriggerIndex {
+  color: #808080;
+  cursor: pointer;
+  padding: 0;
+  line-height: 48px;
+  margin-inline-end: 24px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.droptriggerIndex:hover {
+  color: #d73948;
+}
+.dropdown {
+  z-index: 12;
+  background-color: #f9fafb;
+  right: 40px;
+  left: 40px;
+  margin-top: 12px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+@media only screen and (min-width: 563px) {
+  .droptriggerIndex {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+@media only screen and (max-width: 795px) {
+  .hyperSubMenu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .accesorios {
+    display: none;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .ropa {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1145px) {
+  .beauti {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1295px) {
+  .audio {
+    display: none;
+  }
+}

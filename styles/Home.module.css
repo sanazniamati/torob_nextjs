@@ -1,116 +1,116 @@
 .container {
-  padding: 0 2rem;
-}
-
-.main {
+  width: 100wh;
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #f2f3f5;
 }
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.homepage {
+  top: 12vh;
+  height: 230px;
+  margin: 0 auto;
+  position: relative;
 }
-
-.footer a {
+.logoWrapper {
+  margin: 60px auto 24px auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  direction: rtl;
+  background-color: whitesmoke;
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
 .logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  margin-top: 9px;
+  margin-inline-end: 12px;
+  position: relative;
+  width: 85px;
+  height: 85px;
+}
+.logo Image {
+  margin-bottom: 4px;
+  float: right;
+}
+.logoText {
+  float: right;
+  color: #d73948;
+  display: block;
+  font-size: 40px;
+  font-family: "iranyekanwebregular", Arial;
+  min-width: 165px;
+  line-height: 69px;
+  margin: 0;
+  padding: 0;
+}
+.slogan {
+  color: #808080;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 25px;
+}
+/* search box */
+.search {
+  margin: 0 auto;
+  max-width: 480px;
+  height: 48px;
+  position: relative;
+  display: flex;
+  border-radius: 4px;
+  direction: rtl;
+}
+.searchFormHome {
+  width: 480px;
+  vertical-align: middle;
+  position: relative;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.searchIconHome {
+  color: #808080;
+  position: absolute;
+  padding: 13px;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+}
+.searchIcon {
+  z-index: 1;
+}
+.searchTextHome {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  padding-inline-end: 10px;
+  padding-inline-start: 48px;
+  border: gray;
+  font-size: 16px;
+  font-family: "iranyekanwebregular";
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+/* وقتی کلیک بشه تو باکس ، بردرش گری بشه */
+.searchTextHome :active {
+  border-color: gray;
+}
+/* تخفیف ها دکمه*/
+.offersBtn {
+  background: #d73948;
+  width: 120px;
+  height: 40px;
+  margin: 24px auto;
+  border-radius: 4px;
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offersBtnTxt {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.linkOnClick {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
 }
