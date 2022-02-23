@@ -1,9 +1,8 @@
-.menuCats {
+.menu_container {
   display: flex;
   text-align: right;
   margin-bottom: 5px;
   margin-inline-start: -10px;
-  flex: 1;
 }
 .droptriggerIndex {
   color: #808080;

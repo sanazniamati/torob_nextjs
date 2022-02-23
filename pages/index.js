@@ -1,15 +1,16 @@
-// libraray
+// library
 import Link from "next/link";
 import Image from "next/image";
 // component
 import Header from "../component/Header/Header";
 import Footer from "../component/Footer/Footer";
 // styles
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Index.module.css";
+// icons
 import trobLogo from "../public/image/torob_logo.svg";
 import searchIcon from "../public/image/search.svg";
 
-export default function Home() {
+export default function Index() {
   return (
     <div className={styles.container}>
       <Header />

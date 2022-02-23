@@ -1,14 +1,16 @@
 .container {
-  width: 100wh;
+  width: 100vw;
   min-height: 100vh;
   background-color: #f2f3f5;
 }
+
 .homepage {
   top: 12vh;
   height: 230px;
   margin: 0 auto;
   position: relative;
 }
+
 .logoWrapper {
   margin: 60px auto 24px auto;
   display: flex;
@@ -16,6 +18,7 @@
   direction: rtl;
   background-color: whitesmoke;
 }
+
 .logo {
   margin-top: 9px;
   margin-inline-end: 12px;
@@ -23,10 +26,12 @@
   width: 85px;
   height: 85px;
 }
+
 .logo Image {
   margin-bottom: 4px;
   float: right;
 }
+
 .logoText {
   float: right;
   color: #d73948;
@@ -38,12 +43,14 @@
   margin: 0;
   padding: 0;
 }
+
 .slogan {
   color: #808080;
   font-size: 14px;
   font-weight: normal;
   line-height: 25px;
 }
+
 /* search box */
 .search {
   margin: 0 auto;
@@ -54,6 +61,7 @@
   border-radius: 4px;
   direction: rtl;
 }
+
 .searchFormHome {
   width: 480px;
   vertical-align: middle;
@@ -61,6 +69,7 @@
   border: 1px solid #cccccc;
   border-radius: 4px;
 }
+
 .searchIconHome {
   color: #808080;
   position: absolute;
@@ -69,9 +78,11 @@
   width: 45px;
   height: 45px;
 }
+
 .searchIcon {
   z-index: 1;
 }
+
 .searchTextHome {
   display: inline-block;
   position: absolute;
@@ -92,6 +103,7 @@
 .searchTextHome :active {
   border-color: gray;
 }
+
 /* تخفیف ها دکمه*/
 .offersBtn {
   background: #d73948;
@@ -104,11 +116,13 @@
   justify-content: center;
   align-items: center;
 }
+
 .offersBtnTxt {
   font-size: 14px;
   font-weight: bold;
   color: #ffffff;
 }
+
 .linkOnClick {
   cursor: pointer;
   display: block;

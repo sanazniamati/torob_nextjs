@@ -1,12 +1,14 @@
+// styles
 import headerStyles from "../../styles/Header.module.css";
-import Button from "./Button";
+// component
+import LoginButton from "./LoginButton";
 import Navbar from "./Navbar";
 
 export default function Header() {
   return (
-    <div className={headerStyles.headerContainer}>
+    <header className={headerStyles.headerContainer}>
       <Navbar />
-      <Button />
-    </div>
+      <LoginButton />
+    </header>
   );
 }
