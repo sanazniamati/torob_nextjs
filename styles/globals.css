@@ -4,10 +4,12 @@
 @font-face {
   font-family: iranyekanwebbold;
   src: url(../public/fonts/iranyekanwebbold.woff);
+  font-weight: 600;
 }
 @font-face {
   font-family: iranyekanwebregular;
   src: url(../public/fonts/iranyekanwebregular.woff);
+  font-weight: 400;
 }
 html,
 body {

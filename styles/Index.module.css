@@ -2,13 +2,16 @@
   width: 100vw;
   min-height: 100vh;
   background-color: #f2f3f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .homepage {
-  top: 12vh;
   height: 230px;
   margin: 0 auto;
   position: relative;
+  flex: 1;
 }
 
 .logoWrapper {
@@ -127,4 +130,9 @@
   cursor: pointer;
   display: block;
   text-decoration: none;
+}
+@media only screen and (max-width: 598px) {
+  .homepage {
+    height: 390px;
+  }
 }

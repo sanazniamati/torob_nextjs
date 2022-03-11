@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function AsideContent() {
-  return <div>AsideContent</div>;
+  return <div></div>;
 }

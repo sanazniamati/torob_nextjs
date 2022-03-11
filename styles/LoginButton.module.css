@@ -17,3 +17,106 @@
   direction: rtl;
   padding: 0 12px;
 }
+.black_modal_box {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 99999;
+  overflow-y: auto;
+}
+.white_modal_box {
+  margin: 40px auto;
+  padding: 50px;
+  background-color: white;
+  width: 400px;
+  min-height: 240px;
+  margin-top: 40px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 5;
+}
+
+.header_modal_box {
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+}
+
+.header_txt_modal_box {
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: -12px;
+  padding: 0 4px;
+  transform: translate(-50%, 0px);
+  font-size: 14px;
+  color: black;
+}
+
+.main_content_modal_box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 15px 30px;
+}
+
+.form_modal_box {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.form_input {
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.login_btn_container {
+  text-align: center;
+  width: 100%;
+}
+
+.submit_btn {
+  background-color: #bf1f25 !important;
+  width: 75%;
+  color: #fff !important;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 28px;
+  font-size: 14px;
+}
+
+.footer_first_txt {
+  font-size: 11px;
+  display: block;
+  color: rgb(115, 115, 115);
+}
+
+.footer_first_txt a {
+  color: rgb(51, 122, 183);
+}
+
+.footer_secend_txt {
+  font-size: 11px;
+  color: rgb(51, 122, 183);
+  cursor: pointer;
+  text-align: center;
+}
+
+.close_modal_box {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  font-size: 20px;
+  color: black;
+  z-index: 3;
+}

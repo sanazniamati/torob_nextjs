@@ -1,0 +1,66 @@
+.linkOnClick {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+.droptitle {
+  font-size: 14px;
+  color: #333333;
+  line-height: 24px;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: start;
+}
+.droptitle:hover {
+  color: #d73948;
+}
+.dropitems {
+  z-index: -10;
+  column-width: 180px;
+  column-fill: balance;
+  font-size: 12px;
+  padding: 0px 38px 14px;
+}
+
+.columnelement {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.subtitle {
+  color: #333333;
+  font-weight: 600;
+}
+.subtitle:hover {
+  color: #d73948;
+}
+
+.subtitle span {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bold;
+  line-height: 24px;
+  display: block;
+  text-align: start;
+}
+.subsubitems {
+  margin-bottom: 0;
+  padding-right: 0;
+  padding-inline-end: 40px;
+  line-height: 24px;
+}
+.subsubitems :hover {
+  color: #d73948;
+}
+.grayhover {
+  font-size: 12px;
+  line-height: 28px;
+  cursor: pointer;
+  padding-inline-end: 0px;
+  padding-inline-start: 0;
+  text-align: start;
+}

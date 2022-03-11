@@ -1,15 +1,15 @@
 // component
 import MobileHeader from "../component/MobilePage/MobileHeader";
-import MainContent from "../component/MobilePage/MainContent";
-import AsideContent from "../component/MobilePage/AsideContent";
+import MobileMainContent from "../component/MobilePage/MobileMainContent";
+import MobileAsideContent from "../component/MobilePage/MobileAsideContent";
 
 export default function Mobile() {
   return (
     <>
       <MobileHeader />
-      <section>
-        <MainContent />
-        <AsideContent />
+      <section className="">
+        <MobileMainContent />
+        <MobileAsideContent />
       </section>
     </>
   );

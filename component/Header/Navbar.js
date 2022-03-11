@@ -1,14 +1,14 @@
 // library
 import { useState } from "react";
 // component
-import MobileSubMenu from "./subMenu/MobileSubMenu";
 import PcSubMenu from "./subMenu/PcSubMenu";
-import AnotherSubMenue from "./subMenu/AnotherSubMenue";
-import HyperSubMenu from "./subMenu/HyperSubMenu";
 import Accesorios from "./subMenu/Accesorios";
 import RopaSubMenu from "./subMenu/RopaSubMenu";
-import BeautiSubMenu from "./subMenu/BeautiSubMenu";
 import AudioSubMenu from "./subMenu/AudioSubMenu";
+import HyperSubMenu from "./subMenu/HyperSubMenu";
+import BeautiSubMenu from "./subMenu/BeautiSubMenu";
+import MobileSubMenu from "./subMenu/MobileSubMenu";
+import AnotherSubMenue from "./subMenu/AnotherSubMenue";
 // styles
 import navbarStyles from "../../styles/Navbar.module.css";
 
@@ -39,7 +39,7 @@ const navButtons = [
     id: 0,
     title: "موبایل و تبلت",
     submenu: <MobileSubMenu />,
-    className: "mobile",
+    className: navbarStyles.mobile,
   },
   {
     id: 1,
