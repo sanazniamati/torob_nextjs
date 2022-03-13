@@ -32,7 +32,7 @@ export default function MainContent() {
       <div className="w-full h-[43px] mt-[20px] mr-[32px] mb-[10px] ml-0 ">
         <h1>قیمت انواع محصولات موبایل و تبلت </h1>
       </div>
-      <div className="w-[95%] mx-auto grid auto-cols-fr ">
+      <div className="w-[95%] mx-auto grid grid-cols-cols-auto ">
         {data.map((item) => (
           <SellItem kala={item} key={item.id} />
         ))}

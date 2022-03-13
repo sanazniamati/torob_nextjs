@@ -7,10 +7,14 @@ export default function Mobile() {
   return (
     <>
       <MobileHeader />
-      <section className="">
-        <MobileMainContent />
-        <MobileAsideContent />
-      </section>
+      <div className=" container inline-flex">
+        <div className="w-96 bg-slate-500 h-screen hidden lg:block ">
+          <MobileAsideContent />
+        </div>
+        <div className="w-full h-full ">
+          <MobileMainContent />
+        </div>
+      </div>
     </>
   );
 }

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function AsideContent() {
-  return <div></div>;
+  return <div>salam</div>;
 }
