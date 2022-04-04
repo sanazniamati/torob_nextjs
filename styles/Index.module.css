@@ -4,22 +4,25 @@
   background-color: #f2f3f5;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .homepage {
-  height: 230px;
+  min-height: calc(100vh - 88px);
   margin: 0 auto;
   position: relative;
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .logoWrapper {
-  margin: 60px auto 24px auto;
+  /* margin: 60px auto 24px auto; */
   display: flex;
   justify-content: center;
   direction: rtl;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 
 .logo {
@@ -100,6 +103,7 @@
   border: gray;
   font-size: 16px;
   font-family: "iranyekanwebregular";
+  outline: none;
 }
 
 /* وقتی کلیک بشه تو باکس ، بردرش گری بشه */
