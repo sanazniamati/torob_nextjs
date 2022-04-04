@@ -6,13 +6,24 @@ export default function Footer() {
   return (
     <footer className={footerStyles.footer}>
       <div className={footerStyles.footerContainer}>
-        {footer_link.map((items) => (
-          <div key={items.id} className={items.className}>
-            <Link href={items.href_link}>
-              <a className={footerStyles.footerLink}>{items.title}</a>
-            </Link>
-          </div>
-        ))}
+        <div className={footerStyles.navGroup}>
+          {footer_link.slice(0, 5).map((items) => (
+            <div key={items.id} className={items.className}>
+              <Link href={items.href_link}>
+                <a className={footerStyles.footerLink}>{items.title}</a>
+              </Link>
+            </div>
+          ))}
+        </div>
+        <div className={footerStyles.navGroup}>
+          {footer_link.slice(5, 9).map((items) => (
+            <div key={items.id} className={items.className}>
+              <Link href={items.href_link}>
+                <a className={footerStyles.footerLink}>{items.title}</a>
+              </Link>
+            </div>
+          ))}
+        </div>
       </div>
     </footer>
   );

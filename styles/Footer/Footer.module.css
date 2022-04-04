@@ -1,12 +1,18 @@
 .footer {
   width: 100vw;
-  height: 76px;
+  height: 40px;
   background-color: #f9fafb;
 }
 .footerContainer {
   display: flex;
-  flex-direction: column;
   text-align: center;
+  justify-content: space-between;
+}
+
+.navGroup {
+  display: flex;
+  padding: 0 40px;
+  gap: 24px;
 }
 
 .footerFloatRight {
@@ -20,7 +26,7 @@
 }
 
 .footerLink {
-  margin: 0px 24px 0px 0px;
+  /* margin: 0px 24px 0px 0px; */
   color: #808080;
   font-size: 14px;
   line-height: 20px;
