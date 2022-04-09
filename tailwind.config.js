@@ -5,6 +5,10 @@ module.exports = {
       gridTemplateColumns: {
         "cols-auto": "repeat(auto-fill, minmax(170px, 1fr))",
       },
+      screens: {
+        sm: "600px",
+        // => @media (min-width: 600px) { ... }
+      },
     },
   },
   plugins: [],
