@@ -32,37 +32,37 @@ const footer_link = [
   {
     id: 0,
     title: "راهنمای خرید امن",
-    href_link: "/pages/safe-shopping-guide/",
+    href_link: "https://torob.com/pages/safe-shopping-guide/",
     className: footerStyles.footerFloatRight,
   },
   {
     id: 1,
     title: "پیگیری سفارش",
-    href_link: "/feedback/complaints/1/",
+    href_link: "https://torob.com/feedback/complaints/1/",
     className: footerStyles.footerFloatRight,
   },
   {
     id: 2,
     title: "تماس با ما",
-    href_link: "/pages/contact-us/",
+    href_link: "https://torob.com/pages/contact-us/",
     className: footerStyles.footerFloatRight,
   },
   {
     id: 3,
     title: "درباره ترب",
-    href_link: "/pages/about-us/",
+    href_link: "https://torob.com/pages/about-us/",
     className: footerStyles.footerFloatRight,
   },
   {
     id: 4,
     title: "تخفیف ها",
-    href_link: "/special-offers/",
+    href_link: "https://torob.com/special-offers/",
     className: footerStyles.footerFloatRight,
   },
   {
     id: 5,
     title: "لیست فروشگاه‌ها ",
-    href_link: "/shop-list/",
+    href_link: "https://torob.com/shop-list/",
     className: footerStyles.footerFloatLeft,
   },
   {
@@ -80,7 +80,7 @@ const footer_link = [
   {
     id: 8,
     title: " فرصت‌های شغلی",
-    href_link: "/pages/careers/",
+    href_link: "/jobOpport",
     className: footerStyles.footerFloatLeft,
   },
 ];
