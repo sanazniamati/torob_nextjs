@@ -2,10 +2,10 @@
 import Head from "next/head";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // icons
 import trobLogo from "../../public/image/torob_logo.svg";
-import menuIcon from "../../public/image/menu_icon.svg";
 
 function Header() {
   return (
@@ -18,7 +18,7 @@ function Header() {
         />
         <title>فرصت‌های شغلی ترب</title>
       </Head>
-      <header className="flex items-center px-[10px] w-full h-[50.391px] bg-red-100 ">
+      <header className="flex items-center px-[14.400px] w-full h-[50.391px] bg-red-100 md:px-[56px] lg:px-[88px] ">
         {/* icon */}
         <div className="sm:hidden">
           <svg
@@ -47,9 +47,16 @@ function Header() {
           <Image src={trobLogo} alt="trobLogo" />
         </div>
         {/* buttons */}
-        <button className="w-[102.45px] h-[35.06] bg-[#c83635] hidden sm:block">
-          وب سایت
-        </button>
+        <Link href="/">
+          <a>
+            <button className="w-[84.17px] h-[29.5px] rounded-5 border border-white border-solid bg-[#c83635] hidden sm:block md:w-[93.34px] md:h-[32.78px] lg:w-[102.45px] lg:h-[35.06px]">
+              <div className="mx-[3.6px] text-[10.08px] text-white md:text-[11.02px] md:mx-[4px] lg:text-[12.32px] lg:mx-[4.4px] ">
+                {" "}
+                وبسایت شرکت
+              </div>
+            </button>
+          </a>
+        </Link>
       </header>
     </>
   );
