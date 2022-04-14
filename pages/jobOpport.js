@@ -7,14 +7,19 @@ import torobEmployers from "../public/image/torob_employers.jpg";
 
 // componet
 import Header from "../component/JobOpports/Header";
+import AboutUs from "../component/JobOpports/AboutUs";
 
 function JobOpport() {
   return (
     <div>
       <Header />
       <section>
-        {" "}
-        <Image src={torobEmployers} alt=""></Image>
+        <div className="w-full text-center">
+          <Image src={torobEmployers} alt="torobEmployers" />
+        </div>
+      </section>
+      <section>
+        <AboutUs />
       </section>
       <footer></footer>
     </div>

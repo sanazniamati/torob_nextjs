@@ -10,7 +10,9 @@ export default function Footer() {
           {footer_link.slice(0, 5).map((items) => (
             <div key={items.id} className={items.className}>
               <Link href={items.href_link}>
-                <a className={footerStyles.footerLink}>{items.title}</a>
+                <a className={footerStyles.footerLink} target="_blank">
+                  {items.title}
+                </a>
               </Link>
             </div>
           ))}
@@ -19,7 +21,9 @@ export default function Footer() {
           {footer_link.slice(5, 9).map((items) => (
             <div key={items.id} className={items.className}>
               <Link href={items.href_link}>
-                <a className={footerStyles.footerLink}>{items.title}</a>
+                <a className={footerStyles.footerLink} target="_blank">
+                  {items.title}
+                </a>
               </Link>
             </div>
           ))}
