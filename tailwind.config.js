@@ -8,6 +8,8 @@ module.exports = {
       screens: {
         sm: "600px",
         // => @media (min-width: 600px) { ... }
+        tablet: "655px",
+        // => @media (min-width: 655px) { ... }
         md: "900px",
         //  => @media (min-width: 900px) { ... }
         lg: "1200px",
@@ -18,6 +20,10 @@ module.exports = {
       },
       colors: {
         rose: "#c83635",
+      },
+      maxWidth: {
+        "9xl": "1400px",
+        "1/2": "50%",
       },
     },
   },
