@@ -1,29 +1,31 @@
 // library
 import Link from "next/link";
 // styles
-import pcSubMenuStyles from "../../../styles/PcSubMenu.module.css";
+import SubMenuStyels from "../../../styles/SubMenu.module.css";
 // data Jason
-import PcData from "../../../PcData.json";
+import PcData from "../../../DataJson/PcData.json";
 
 export default function PcSubMenu() {
   return (
     <>
-      <Link href="/https://torob.com/browse/173/%D9%84%D9%BE-%D8%AA%D8%A7%D9%BE-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C/">
-        <a className={pcSubMenuStyles.linkOnClick}>
-          <div className={pcSubMenuStyles.droptitle}>لپ تاپ </div>
+      <Link href="/">
+        <a className={SubMenuStyels.linkOnClick}>
+          <div className={SubMenuStyels.droptitle}>
+            لپ تاپ ، کامپیوتر ، اداری
+          </div>
         </a>
       </Link>
-      <ul className={pcSubMenuStyles.dropitems}>
+      <ul className={SubMenuStyels.dropitems}>
         {PcData.map((pcitems) => (
-          <div key={pcitems.id} className={pcSubMenuStyles.columnelement}>
+          <div key={pcitems.id} className={SubMenuStyels.columnelement}>
             <Link href="/mobile">
-              <a className={pcSubMenuStyles.subtitle}>{pcitems.title}</a>
+              <a className={SubMenuStyels.subtitle}>{pcitems.title}</a>
             </Link>
-            <ul className={pcSubMenuStyles.subsubitems}>
+            <ul className={SubMenuStyels.subsubitems}>
               {pcitems.subsubMenuItems.map((subMenuValu) => (
                 <div key={subMenuValu.id}>
                   <Link href="/mobile">
-                    <a className={pcSubMenuStyles.grayhover}>
+                    <a className={SubMenuStyels.grayhover}>
                       <div>{subMenuValu.title}</div>
                     </a>
                   </Link>

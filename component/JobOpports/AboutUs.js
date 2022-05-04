@@ -18,13 +18,8 @@ function AboutUs() {
             layout="responsive"
             alt="torobEmployers"
           />
-          {/* <div className="flex-col-center w-100 min-height-350 bg-dark-cover">
-            <div className="layout bg-transparent">
-              <h1 className="f-s-30 medium-font"></h1>
-            </div>
-          </div> */}
         </div>
-        <div className="w-full text-center mb-[7rem] px-[14.4px] ">
+        <div className="w-full text-center mb-[50.400px] px-[14.4px] ">
           <h2 className="text-[20.16px] text-center pt-[21.6px] ">درباره ما</h2>
           <p className="pt-[21.6px] text-[11.52px] text-[#898989]">
             معرفی و تاریخچه

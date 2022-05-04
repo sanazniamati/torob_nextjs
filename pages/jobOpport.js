@@ -6,6 +6,8 @@ import Header from "../component/JobOpports/Header";
 import AboutUs from "../component/JobOpports/AboutUs";
 import Jobs from "../component/JobOpports/Jobs";
 import Ability from "../component/JobOpports/Ability";
+import MapContainer from "../component/JobOpports/MapContainer";
+import Footer from "../component/JobOpports/Footer";
 
 function JobOpport() {
   return (
@@ -14,7 +16,8 @@ function JobOpport() {
       <AboutUs />
       <Jobs />
       <Ability />
-      <footer></footer>
+      <MapContainer />
+      <Footer />
     </div>
   );
 }

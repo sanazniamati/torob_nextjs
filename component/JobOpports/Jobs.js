@@ -4,18 +4,18 @@ import React from "react";
 function Jobs() {
   return (
     <section>
-      <div className="mt-[5rem] mx-auto w-full max-w-9xl ">
+      <div className="mt-[36px] px-[14.400px] w-full  ">
         {jobs_title.map((items) => (
-          <div key={items.id} className="p-[7.200px]">
-            <div className="p-[1rem] max-w-full basis-full   hover:bg-rose hover:text-white ">
+          <div
+            key={items.id}
+            className="p-[7.200px] h-[84.39px] flex items-center w-full mb-[14.4px] border border-solid border-[#99bdc1c1] basis-full 1040:basis-[1/2] "
+          >
+            <div className="    ">
               <Link href="https://jobs.torob.com/jobs/rvqonv">
                 <a>
-                  <div className="flex items-center justify-between px-[2rem] h-[84.391px] border border-solid border-[#99BDC1] rounded-5   ">
-                    <div>
-                      <h3 className="text-[#616161] hover:text-white">
-                        {items.jobTitle}
-                      </h3>
-                    </div>
+                  <div className="flex items-center justify-around px-[14.400px] w-full h-[84.39px]    ">
+                    <h3 className="text-[#616161] ">{items.jobTitle}</h3>
+
                     <button className="px-[8.64px] py-[7.2px] rounded-[5px] text-[11.52px] bg-rose text-white hover:bg-white">
                       <span className="mx-[3.6px] hover:text-rose">
                         {items.btnTitle}

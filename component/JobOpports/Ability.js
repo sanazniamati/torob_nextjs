@@ -2,34 +2,32 @@ import React from "react";
 
 function Ability() {
   return (
-    <section>
-      <div className="my-[5rem] ">
-        <h2 className="text-[20.16px] text-[#616161] text-center ">
-          قابلیت ها و جذابیت ها
-        </h2>
-        <div className=" contain my-9 flex flex-row grow-0 shrink basis-auto flex-wrap md:px-[56px]">
-          {ability_items.map((items) => (
-            <div
-              key={items.id}
-              className="p-4 basis-1/2 max-w-1/2 tablet:basis-[25%] md:basis-[16.66%] md:p-[8px]   "
-            >
-              <div className="h-[158.38px]">
-                <div className="flex flex-col justify-center items-center bg-[#f9f9f9] h-full rounded-5 px-[2rem] ">
-                  <div className="flex flex-1 justify-center items-center text-center ">
-                    <div className="w-[36px] h-[36px]">{items.svg_icom}</div>
-                  </div>
-                  <div className="flex flex-1 justify-center items-center ">
-                    <h3 className="text-[#b1b1b1e3] text-[11.52px]">
-                      {items.title}
-                    </h3>
-                  </div>
+    <div className="mt-[36px] ">
+      <h2 className="text-[20.16px] text-[#616161] text-center ">
+        قابلیت ها و جذابیت ها
+      </h2>
+      <div className=" contain my-9 flex flex-row grow-0 shrink basis-auto flex-wrap md:px-[56px]">
+        {ability_items.map((items) => (
+          <div
+            key={items.id}
+            className="p-4 basis-1/2 max-w-1/2 tablet:basis-[25%] md:basis-[16.66%] md:p-[8px]   "
+          >
+            <div className="h-[158.38px]">
+              <div className="flex flex-col justify-center items-center bg-[#f9f9f9] h-full rounded-5 px-[2rem] ">
+                <div className="flex flex-1 justify-center items-center text-center ">
+                  <div className="w-[36px] h-[36px]">{items.svg_icom}</div>
+                </div>
+                <div className="flex flex-1 justify-center items-center ">
+                  <h3 className="text-[#b1b1b1e3] text-[11.52px]">
+                    {items.title}
+                  </h3>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
   );
 }
 const ability_items = [
