@@ -3,20 +3,22 @@ import React from "react";
 
 function Jobs() {
   return (
-    <section>
-      <div className="mt-[36px] px-[14.400px] w-full  ">
+    <>
+      <div className="flex flex-wrap mt-[36px] px-[14.400px] md:px-[56px] lg:px-[88px]">
         {jobs_title.map((items) => (
           <div
             key={items.id}
-            className="p-[7.200px] h-[84.39px] flex items-center w-full mb-[14.4px] border border-solid border-[#99bdc1c1] basis-full 1040:basis-[1/2] "
+            className="p-[7.200px]  flex items-center w-full 1040-screen:basis-1/2 1040-screen:p-[8px] lg:basis-1/2 lg:px-[8.8px]  "
           >
-            <div className="    ">
+            <div className="   w-full">
               <Link href="https://jobs.torob.com/jobs/rvqonv">
                 <a>
-                  <div className="flex items-center justify-around px-[14.400px] w-full h-[84.39px]    ">
-                    <h3 className="text-[#616161] ">{items.jobTitle}</h3>
+                  <div className="flex items-center justify-between px-[14.400px] border border-solid border-[#ededed] rounded-5 h-[86.39px] lg:px-[17.6px] lg:h-[105.59px] group  hover:bg-rose">
+                    <h3 className="text-[#616161] group-hover:text-white ">
+                      {items.jobTitle}
+                    </h3>
 
-                    <button className="px-[8.64px] py-[7.2px] rounded-[5px] text-[11.52px] bg-rose text-white hover:bg-white">
+                    <button className="py-[8.64px] px-[7.2px] rounded-[5px] text-[11.52px] bg-rose group-hover:bg-white group-hover:text-rose text-white md:py-[9.6px] md:px-[8px] ">
                       <span className="mx-[3.6px] hover:text-rose">
                         {items.btnTitle}
                       </span>
@@ -38,7 +40,7 @@ function Jobs() {
           </a>
         </Link>
       </div>
-    </section>
+    </>
   );
 }
 const jobs_title = [

@@ -4,7 +4,7 @@ function MapContainer() {
   return (
     <div>
       <div className=" flex justify-center items-center  mt-[108px] ">
-        <div className=" ">
+        <div className="w-full px-[14.400px] h-[216px] md:px-[56px] md:h-[240px] lg:px-[88px] lg:h-[264px] ">
           <iframe
             className=" text-center "
             src="https://maps.google.com/maps?q=35%C2%B042'12.1%22N%2051%C2%B021'00.6%22E&t=&z=13&ie=UTF8&iwloc=&output=embed"
