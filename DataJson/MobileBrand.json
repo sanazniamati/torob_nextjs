@@ -1,0 +1,257 @@
+[
+  {
+    "id": 0,
+    "nameF": "سامسونگ",
+    "nameE": "Samsung"
+  },
+  {
+    "id": 1,
+    "nameF": "شیائومی",
+    "nameE": "Xiomi"
+  },
+  {
+    "id": 2,
+    "nameF": "هوآوی",
+    "nameE": "Huawei"
+  },
+  {
+    "id": 3,
+    "nameF": "نوکیا",
+    "nameE": "Nokia"
+  },
+  {
+    "id": 4,
+    "nameF": "اپل",
+    "nameE": "Apple"
+  },
+  {
+    "id": 5,
+    "nameF": "آنر",
+    "nameE": "Honor"
+  },
+  {
+    "id": 6,
+    "nameF": "موتورلا",
+    "nameE": "Motorola"
+  },
+  {
+    "id": 7,
+    "nameF": "ال جی",
+    "nameE": "LG"
+  },
+  {
+    "id": 8,
+    "nameF": "ریلمی",
+    "nameE": "Realme"
+  },
+  {
+    "id": 9,
+    "nameF": "اچ تی سی",
+    "nameE": "HTC"
+  },
+  {
+    "id": 10,
+    "nameF": "ایسوس",
+    "nameE": "ASUS"
+  },
+  {
+    "id": 11,
+    "nameF": "وان پلاس",
+    "nameE": "OnePlus"
+  },
+  {
+    "id": 12,
+    "nameF": "سونی",
+    "nameE": "Sony"
+  },
+  {
+    "id": 13,
+    "nameF": "اوپو",
+    "nameE": "OPPO"
+  },
+  {
+    "id": 14,
+    "nameF": "بلو",
+    "nameE": "Blu"
+  },
+  {
+    "id": 15,
+    "nameF": "جی ال ایکس",
+    "nameE": "GLX"
+  },
+  {
+    "id": 16,
+    "nameF": "اینفینیکس",
+    "nameE": "Infinix"
+  },
+  {
+    "id": 17,
+    "nameF": "",
+    "nameE": ""
+  },
+  {
+    "id": 18,
+    "nameF": "هوپ",
+    "nameE": "Hope"
+  },
+  {
+    "id": 19,
+    "nameF": "لنوو",
+    "nameE": "Lenovo"
+  },
+  {
+    "id": 20,
+    "nameF": "کاجیتل",
+    "nameE": "KGTEL"
+  },
+  {
+    "id": 21,
+    "nameF": "زد تی ای",
+    "nameE": "ZTE"
+  },
+  {
+    "id": 22,
+    "nameF": "ارد",
+    "nameE": "Orod"
+  },
+  {
+    "id": 23,
+    "nameF": "آلکاتل",
+    "nameE": "Alcatel"
+  },
+  {
+    "id": 24,
+    "nameF": "تکنو",
+    "nameE": "Techno"
+  },
+  {
+    "id": 25,
+    "nameF": "ویوو",
+    "nameE": "Wiwu"
+  },
+  {
+    "id": 26,
+    "nameF": "اسمارت",
+    "nameE": "Smart"
+  },
+  {
+    "id": 27,
+    "nameF": "بلک بری",
+    "nameE": "BlackBerry"
+  },
+  {
+    "id": 28,
+    "nameF": "گوگل",
+    "nameE": "Google"
+  },
+  {
+    "id": 29,
+    "nameF": "اینونس",
+    "nameE": "Invens"
+  },
+  {
+    "id": 30,
+    "nameF": "دوجی",
+    "nameE": "DOOGEE"
+  },
+  {
+    "id": 31,
+    "nameF": "میزو",
+    "nameE": "Meizu"
+  },
+  {
+    "id": 32,
+    "nameF": "کاترپیلار",
+    "nameE": "CAT"
+  },
+  {
+    "id": 33,
+    "nameF": "جی پلاس",
+    "nameE": "GPlus"
+  },
+  {
+    "id": 34,
+    "nameF": "ادسن",
+    "nameE": "Odscn"
+  },
+  {
+    "id": 35,
+    "nameF": "فلای",
+    "nameE": "Fly"
+  },
+  {
+    "id": 36,
+    "nameF": "ونوس",
+    "nameE": "Venus"
+  },
+  {
+    "id": 37,
+    "nameF": "دیمو",
+    "nameE": "Dimo"
+  },
+  {
+    "id": 38,
+    "nameF": "لیگو",
+    "nameE": "Leagoo"
+  },
+  {
+    "id": 39,
+    "nameF": "انرجایزر",
+    "nameE": "Energizer"
+  },
+  {
+    "id": 40,
+    "nameF": "مالتی فون",
+    "nameE": "MultiPhone"
+  },
+  {
+    "id": 41,
+    "nameF": "هیوندای",
+    "nameE": "Hyundai"
+  },
+  {
+    "id": 42,
+    "nameF": "تی پی-لینک",
+    "nameE": "TP-LINK"
+  },
+  {
+    "id": 43,
+    "nameF": "داکس",
+    "nameE": "DOX"
+  },
+  {
+    "id": 44,
+    "nameF": "یولفون",
+    "nameE": "Ulefone"
+  },
+  {
+    "id": 45,
+    "nameF": "کنکورد پلاس",
+    "nameE": "Concord Plus"
+  },
+  {
+    "id": 46,
+    "nameF": "کن شین دا",
+    "nameE": "Ken Xin Da"
+  },
+  {
+    "id": 47,
+    "nameF": "جیونی",
+    "nameE": "GIONEE"
+  },
+  {
+    "id": 48,
+    "nameF": "مارشال",
+    "nameE": "Marshal"
+  },
+  {
+    "id": 49,
+    "nameF": "لاوا",
+    "nameE": "LAVA"
+  },
+  {
+    "id": 50,
+    "nameF": "مایکروسافت",
+    "nameE": "Microsoft"
+  }
+]
