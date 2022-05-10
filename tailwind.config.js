@@ -6,6 +6,7 @@ module.exports = {
         "cols-auto": "repeat(auto-fill, minmax(170px, 1fr))",
       },
       screens: {
+        " 525-screen": "580px",
         sm: "600px",
         // => @media (min-width: 600px) { ... }
         tablet: "655px",
