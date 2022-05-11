@@ -1,6 +1,6 @@
 // component
 import MobileHeader from "../component/MobilePage/MobileHeader";
-import MobileMainContent from "../component/MobilePage/MobileMainContent";
+import MobileMainContent from "../component/MobilePage/Mobile_Main_Content/MobileMainContent";
 import MobileAsideContent from "../component/MobilePage/Mobile_Aside_content/MobileAsideContent";
 
 export default function Mobile() {

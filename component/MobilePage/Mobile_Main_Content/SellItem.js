@@ -1,8 +1,15 @@
+// library
+import Image from "next/image";
+
 export default function SellItem(props) {
   return (
     <div className="w-[181px] h-[380px] p-[12px] rounded-[6px] m-[5px] cursor-pointer">
       <div className="w-[157px] h-[145px]">
-        <img className="w-full h-full" src={props.kala.imageAddress} />
+        <Image
+          className="w-full h-full"
+          src={props.kala.imageAddress}
+          alt="/"
+        />
       </div>
 
       <div className="text-black text-[14px] font-[iranyekanwebregular] mt-[12px] mx-0 mb-[45px] overflow-hidden ">

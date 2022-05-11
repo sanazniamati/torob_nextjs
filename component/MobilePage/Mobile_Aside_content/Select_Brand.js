@@ -11,9 +11,14 @@ import seachIcon from "../../../public/image/search.svg";
 import mobileBrand from "../../../DataJson/MobileBrand.json";
 
 export default function Select_Brand() {
-  const [firstDivIsActive, setfirstDivIsActive] = useState(true);
+  const [Select_Brand_Active, setSelect_Brand_Active] = useState(true);
   const show = () =>
-    setfirstDivIsActive((firstDivIsActive) => !firstDivIsActive);
+    setSelect_Brand_Active((Select_Brand_Active) => !Select_Brand_Active);
+
+  const [Smilar_Brand, setSmilar_Brand] = useState(false);
+  const Show_Smilar_Brand = () =>
+    setSmilar_Brand((Smilar_Brand) => !Smilar_Brand);
+
   const [searchTerm, setSearchTerm] = useState("");
   const searchText = (event) => {
     setSearchTerm(event.target.value);
@@ -26,17 +31,21 @@ export default function Select_Brand() {
           onClick={show}
         >
           <div className="filter_title mr-[8px] ">انتخاب برند</div>
-          <div className="icon_container ">
-            <div className="svg_style">
-              <Image
-                className="w-[24px] h-[24px] transform rotate-180 "
-                src={dropdownIcon}
-                alt="dropdownIcon"
-              />
-            </div>
-          </div>
+          {Select_Brand_Active ? (
+            <Image
+              className="w-[24px] h-[24px] transform rotate-180 "
+              src={dropdownIcon}
+              alt="dropdownIcon"
+            />
+          ) : (
+            <Image
+              className="w-[24px] h-[24px] transform rotate-360 "
+              src={dropdownIcon}
+              alt="dropdownIcon"
+            />
+          )}
         </div>
-        {firstDivIsActive ? (
+        {Select_Brand_Active ? (
           <>
             <div className="filter_searchbox_container mt-[18px]">
               <form>
@@ -61,7 +70,7 @@ export default function Select_Brand() {
             </div>
             <div className="filter_brand_container mt-[4px]">
               {mobileBrand
-                .slice(0 - 10)
+                .slice(0, 8)
                 .filter((val) => {
                   if (searchTerm === "") {
                     return val;
@@ -82,8 +91,44 @@ export default function Select_Brand() {
                     </a>
                   </Link>
                 ))}
+
               <div>
-                <div className="flex cursor-pointer">
+                {Smilar_Brand ? (
+                  <>
+                    {mobileBrand
+                      .slice(8, 50)
+                      .filter((val) => {
+                        if (searchTerm === "") {
+                          return val;
+                        } else if (
+                          val.nameE
+                            .toLowerCase()
+                            .includes(searchTerm.toLowerCase()) ||
+                          val.nameF
+                            .toLowerCase()
+                            .includes(searchTerm.toLowerCase())
+                        ) {
+                          return val;
+                        }
+                      })
+                      .map((item) => (
+                        <Link href="/" key={item.id}>
+                          <a className="filter_brand mt-[4px] flex justify-between items-center px-[8px] py-[4px] cursor-pointer text-[14px] font-normal">
+                            <div className="filter_brand_item ">
+                              {item.nameF}
+                            </div>
+                            <div className="filter_brand_item">
+                              {item.nameE}
+                            </div>
+                          </a>
+                        </Link>
+                      ))}
+                  </>
+                ) : null}
+                <div
+                  className="flex cursor-pointer"
+                  onClick={Show_Smilar_Brand}
+                >
                   <div className="p-[12px] flex text-[16px] font-bold">
                     نمایش سایر برندها
                   </div>
