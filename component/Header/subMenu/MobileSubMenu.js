@@ -3,7 +3,7 @@ import Link from "next/link";
 // styles
 import MobilesSubMenuStyles from "../../../styles/MobileSubMenu.module.css";
 // data Jason
-import mobileData from "../../../mobileData.json";
+import mobileData from "../../../DataJson/mobileData.json";
 
 export default function MobileSubMenu() {
   return (

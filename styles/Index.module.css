@@ -1,4 +1,4 @@
-.container {
+/* .container {
   width: 100vw;
   min-height: 100vh;
   background-color: #f2f3f5;
@@ -15,30 +15,28 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
+} */
 
-.logoWrapper {
-  /* margin: 60px auto 24px auto; */
+/* .logoWrapper {
   display: flex;
   justify-content: center;
   direction: rtl;
-  /* background-color: whitesmoke; */
-}
+} */
 
-.logo {
+/* .logo {
   margin-top: 9px;
   margin-inline-end: 12px;
   position: relative;
   width: 85px;
   height: 85px;
-}
+} */
 
-.logo Image {
+/* .logo Image {
   margin-bottom: 4px;
   float: right;
-}
+} */
 
-.logoText {
+/* .logoText {
   float: right;
   color: #d73948;
   display: block;
@@ -46,9 +44,7 @@
   font-family: "iranyekanwebregular", Arial;
   min-width: 165px;
   line-height: 69px;
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
+   font-weight: bold;
 }
 
 .slogan {
@@ -56,10 +52,10 @@
   font-size: 14px;
   font-weight: normal;
   line-height: 25px;
-}
+} */
 
 /* search box */
-.search {
+/* .search {
   margin: 0 auto;
   max-width: 480px;
   height: 48px;
@@ -67,29 +63,30 @@
   display: flex;
   border-radius: 4px;
   direction: rtl;
-}
+} */
 
-.searchFormHome {
+/* .searchFormHome {
   width: 480px;
   vertical-align: middle;
   position: relative;
   border: 1px solid #cccccc;
   border-radius: 4px;
-}
+} */
 
-.searchIconHome {
+/* .searchIconHome {
   color: #808080;
   position: absolute;
   padding: 13px;
   cursor: pointer;
   width: 45px;
   height: 45px;
-}
+} */
 
-.searchIcon {
+/* .searchIcon {
   z-index: 1;
-}
+} */
 
+/* 
 .searchTextHome {
   display: inline-block;
   position: absolute;
@@ -105,15 +102,15 @@
   font-size: 16px;
   font-family: "iranyekanwebregular";
   outline: none;
-}
+} */
 
 /* وقتی کلیک بشه تو باکس ، بردرش گری بشه */
-.searchTextHome :active {
+/* .searchTextHome :active {
   border-color: gray;
-}
+} */
 
 /* تخفیف ها دکمه*/
-.offersBtn {
+/* .offersBtn {
   background: #d73948;
   width: 120px;
   height: 40px;
@@ -135,9 +132,9 @@
   cursor: pointer;
   display: block;
   text-decoration: none;
-}
-@media only screen and (max-width: 598px) {
+} */
+/* @media only screen and (max-width: 598px) {
   .homepage {
     height: 390px;
   }
-}
+} */

@@ -1,13 +1,14 @@
-.footer {
+/* .footer {
   width: 100vw;
   height: 40px;
   background-color: #f9fafb;
-}
-.footerContainer {
+} */
+
+/* .footerContainer {
   display: flex;
   text-align: center;
   justify-content: space-between;
-}
+} */
 
 .navGroup {
   display: flex;

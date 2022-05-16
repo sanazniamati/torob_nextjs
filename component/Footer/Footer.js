@@ -1,11 +1,13 @@
 // library
 import Link from "next/link";
+
+// styles
 import footerStyles from "../../styles/Footer/Footer.module.css";
 
 export default function Footer() {
   return (
-    <footer className={footerStyles.footer}>
-      <div className={footerStyles.footerContainer}>
+    <footer className=" h-[76px] bg-[#f9fafb] hidden sm:block lg:h-[40px]">
+      <div className="flex flex-col justify-between items-center lg:flex-row">
         <div className={footerStyles.navGroup}>
           {footer_link.slice(0, 5).map((items) => (
             <div key={items.id} className={items.className}>
