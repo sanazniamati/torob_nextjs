@@ -16,7 +16,7 @@ export default function Navbar() {
   const [selectedNavButtons, setSelectedNavButtons] = useState(false);
 
   return (
-    <nav className={navbarStyles.menu_container}>
+    <nav className="flex text-right mb-[5px] mr-[-10px] ">
       {navButtons.map((items) => (
         <div className={items.className} key={items.id}>
           <div

@@ -32,14 +32,14 @@ export default function Index() {
                 </a>
               </Link>
             </div>
-            <h1 className="text-rose text-[40px] font-[iranyekanwebregular] min-w-[165px] leading-[69px] font-bold">
+            <h1 className="hidden sm:block text-rose text-[40px] font-[iranyekanwebregular] min-w-[165px] leading-[69px] font-bold">
               ترب
               <div className="text-sm text-[#808080] font-normal leading-[25px]">
                 موتور جستجوی هوشمند خرید
               </div>
             </h1>
           </div>
-          <div className="max-w-[480px] h-[48px] flex rounded border border-solid border-[#cccccc]">
+          <div className="max-w-[90%] h-[48px] flex rounded border border-solid border-[#cccccc]">
             <form className="w-[480px] relative ">
               <div className="w-[45px] h-[45px] cursor-pointer absolute p-[13px]">
                 <Image src={searchIcon} alt="searchIcon" className="z-10" />

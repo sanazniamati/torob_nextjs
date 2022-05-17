@@ -10,7 +10,8 @@ module.exports = {
         "cols-auto": "repeat(auto-fill, minmax(170px, 1fr))",
       },
       screens: {
-        " 525-screen": "580px",
+        " 245-screen": "245px",
+        " 525-screen": "525px",
         sm: "600px",
         // => @media (min-width: 600px) { ... }
         tablet: "655px",

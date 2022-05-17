@@ -1,5 +1,6 @@
 // library
 import { useState } from "react";
+
 // styles
 import loginButtonStyles from "../../styles/LoginButton.module.css";
 
@@ -8,14 +9,26 @@ export default function Button() {
   const handelClick = () => {
     setModalStatus((modalStatus) => !modalStatus);
   };
+
+  const handelOnClose = () => {
+    setModalStatus(false);
+  };
+
+  const handelOnBlur = () => {
+    setModalStatus(false);
+  };
   return (
-    <div className={loginButtonStyles.btnContainer}>
+    <main className={loginButtonStyles.btnContainer}>
       <div className={loginButtonStyles.btnSubmit} onClick={handelClick}>
         ورود / ثبت نام
       </div>
 
       {modalStatus && (
-        <div className={loginButtonStyles.black_modal_box}>
+        <div
+          tabIndex={0}
+          onBlur={handelOnBlur}
+          className={loginButtonStyles.black_modal_box}
+        >
           <div className={loginButtonStyles.white_modal_box}>
             <div className={loginButtonStyles.header_modal_box}>
               <hr />
@@ -52,10 +65,15 @@ export default function Button() {
                 </p>
               </div>
             </div>
-            <div className={loginButtonStyles.close_modal_box}></div>
+            <div
+              className={loginButtonStyles.close_modal_box}
+              onClick={handelOnClose}
+            >
+              X
+            </div>
           </div>
         </div>
       )}
-    </div>
+    </main>
   );
 }

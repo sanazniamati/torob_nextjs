@@ -37,7 +37,7 @@
   margin-top: 40px;
   border-radius: 10px;
   position: relative;
-  z-index: 5;
+  z-index: 1000;
 }
 
 .header_modal_box {
@@ -114,8 +114,8 @@
 
 .close_modal_box {
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 12px;
+  left: 12px;
   font-size: 20px;
   color: black;
   z-index: 3;
