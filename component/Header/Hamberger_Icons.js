@@ -1,5 +1,3 @@
-import React from "react";
-
 function Hamberger_Icons() {
   return (
     <div>

@@ -29,7 +29,7 @@ export default function Header() {
         />
         <title>ترب | موتور جستجوی هوشمند محصولات</title>
       </Head>
-      <header className="w-screen h-[48px] bg-[#f9fafb] px-[40px] flex justify-between relative ">
+      <header className="w-screen h-[48px] bg-[#f9fafb] px-[40px]  flex justify-between  relative ">
         <div className=" items-center flex sm:hidden">
           <button onClick={handelOn_ShowDrowerStatus}>
             <Hamberger_Icons />

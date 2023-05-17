@@ -31,6 +31,9 @@
     font-size: 14px;
     font-weight: 400;
   }
+  .audio {
+    display: none;
+  }
 }
 @media only screen and (max-width: 795px) {
   .hyperSubMenu {

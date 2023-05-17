@@ -2,6 +2,10 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./component/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        iranyekanwebbold: ["iranyekanwebbold"],
+        iranyekanwebregular: ["iranyekanwebregular"],
+      },
       minHeight: {
         "calc-22": "calc(100vh - 88px)",
         "calc-(100vh-(footer-header))": "calc(100vh - 124px)",

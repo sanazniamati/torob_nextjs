@@ -4,7 +4,7 @@
 @font-face {
   font-family: iranyekanwebbold;
   src: url(../public/fonts/iranyekanwebbold.woff);
-  font-weight: 600;
+  font-weight: 700;
 }
 @font-face {
   font-family: iranyekanwebregular;
@@ -15,9 +15,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: iranyekanwebregular, sans-serif;
-  /* overflow-x: hidden;
-  overflow-y: scroll; */
+  font-family: iranyekanwebregular;
+  /* font-family: iranyekanwebbold; */
+
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 a {

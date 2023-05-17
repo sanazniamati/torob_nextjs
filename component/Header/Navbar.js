@@ -20,6 +20,7 @@ export default function Navbar() {
       {navButtons.map((items) => (
         <div className={items.className} key={items.id}>
           <div
+            // className="text-[#808080] cursor-pointer leading-[48px] ml-[24px]  text-[11px] font-semibold sm:text-[18px]"
             className={navbarStyles.droptriggerIndex}
             onClick={() => setSelectedNavButtons(items)}
           >
@@ -37,7 +38,7 @@ export default function Navbar() {
 const navButtons = [
   {
     id: 0,
-    title: "موبایل و تبلت",
+    title: "موبایل و کالای دیجیتال",
     submenu: <MobileSubMenu />,
     className: navbarStyles.mobile,
   },
